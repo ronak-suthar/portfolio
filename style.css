@@ -118,6 +118,10 @@ a:hover {
   justify-content: center;
 }
 
+.about-me p{
+  margin-left: 20px;
+}
+
 .avatar {
   width: 200px;
   height: 200px;
@@ -144,14 +148,27 @@ a:hover {
   margin: 20px;
 }
 
-.coding-profiles ul{
+.coding-profiles{
   display: flex;
-  list-style-type: none;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.coding-profiles ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style-type: none;
   list-style: none;
   padding-left: 0;
+}
+
+.coding-profiles p{
+  font-size:20px;
 }
 
 .coding-profiles img{
@@ -169,6 +186,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .contact-me img{
